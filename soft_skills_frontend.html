@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      main {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .site-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+      }
+      .three-ways {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .three-ways .section_title{
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .three-ways-main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+      }
+      .three-ways-main div{
+        width: 325px;
+      }
+      .three-ways-main div img{
+        width: 100%;
+        height: 250px;
+      }
+      .collective-work {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .collective-work .section_title{
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      .collective-work-main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+      }
+      .collective-work-main img{
+        width: 100%;
+      }
+      .block-underblock {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .block-underblock .section_subtitle{
+        margin-bottom: 20px;
+      }
+      .block-underblock li{
+        list-style-type: none;
+        margin-bottom: 10px;
+      }
+      .block-underblock li::before{
+        content: '✓';
+        margin-right: 10px;        
+      }
+      .flex-skills-learning{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+      .flex-skills-learning img{
+        height: 250px;
+      }
+      .flex-skills-tips{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .flex-skills-tips .section_title{
+        margin-bottom: 50px;
+      }
+      .flex-skills-tips p{
+        margin-bottom: 10px;
+      }
+      .flex-skills-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+      }
+      .flex-skills-list .section_title{
+        text-align: center;
+      }
+      .flex-skills-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      .flex-skills-container div {
+        width: 425px;
+        padding: 10px;
+        list-style-type: none;
+        background: white;
+      }
+      .flex-skills-container .section_subtitle {
+        text-align: center;
+      }
+      .summary .section_title{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="nav">
+            <div class="header_logo"><img src="./img/logo_shkm01.png" alt=""></div>
+            <nav class="header_nav">
+                <ul class="header_nav_list">
+                    <a href="./index.html">
+                        <li class="header_nav_item">Головна</li>
+                    </a>
+                    <a href="./professional_life.html">
+                        <li class="header_nav_item">Професійна
+                            <Br>діяльність    
+                        </li>
+                    </a>
+                    <a href="./professions_in_it.html">
+                        <li class="header_nav_item"> Професії 
+                            <Br>в ІТ 
+                        </li>
+                    </a>
+                    <a href="./about_frontend.html">
+                        <li class="header_nav_item">Про 
+                            <Br>FrontEnd    
+                        </li>
+                    </a>
+                    <a href="./tree_of_skills.html">
+                        <li class="header_nav_item">Навички 
+                            <Br>FrontEnd    
+                        </li>
+                    </a>
+                    <a href="./ways_of_education.html">
+                        <li class="header_nav_item">Шляхи 
+                            <br>навчання
+                        </li>
+                    </a>
+                    <a href="./universities.html">
+                        <li class="header_nav_item">Навчальні 
+                            <br>заклади
+                        </li>
+                    </a>
+                    <a href="./self-education.html">
+                        <li class="header_nav_item">Самоосвіта</li> 
+                    </a>
+                    <a href="./community.html">
+                        <li class="header_nav_item">Роль 
+                            <br>колективу
+                        </li>
+                    </a>
+                    <a href="./job_search.html">
+                        <li class="header_nav_item">Пошук 
+                            <br>роботи
+                        </li>
+                    </a>
+                    <a href="./it_and_gpt.html">
+                        <li class="header_nav_item">Майбутнє
+                            <br>IT
+                        </li>
+                    </a>
+                    <a href="./gpt_in_frontend.html">
+                        <li class="header_nav_item">ChatGPT</li>
+                    </a>
+                    <a href="./lifelonglearning.html">
+                        <li class="header_nav_item">Безперервне 
+                            <br>навчання
+                        </li>
+                    </a>
+                    <a href="./soft_skills_frontend.html">
+                        <li class="header_nav_item active">Soft 
+                            <br>Skills
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+        <h1 class="main_title birch">Шляхи подальшого навчання після закінчення ШКМ</h1>
+        <a href="./personal_plans.html" class="explore-btn">Дослідити Плани учнів</a>
+      </header>
+    </div>
+    <main class="main">
+      <section class="section">
+        <div class="site-title container1200">
+          <h1 class="main_title">
+            Гнучкі навички, що це таке, та якими вони мають бути в сучасної
+            людини, що хоче стати успішною
+          </h1>
+          <h2 class="section_title">
+            Що таке гнучкі навички? <br />Гнучкі навички - це навички, що
+            показують, як людина взаємодіє з суспільством, допомагають якісно
+            виконувати роботу і успішно будувати свою кар’єру. <br />Власне, сам
+            термін “гнучкі навички” об’єднує декілька понять, які стосуються
+            різних деталь забезпечення ефективної роботи в колективі.
+          </h2>
+        </div> 
+        <div class="three-ways container1200">
+          <h2 class="section_title">
+            Загалом, ці поняття підпадають під три основних напрями:
+          </h3>
+          <div class="three-ways-main">
+            <div class="way-one">
+              <img src="img/soft-skills-communication.jpg" alt=""/>
+              <p class="main-text">Комунікація</p>
+            </div>
+            <div class="way-two">
+              <img src="img/connect.jpg" alt="" />
+              <p class="main-text">Взаємодія</p>
+            </div>
+            <div class="way-three">
+              <img src="img/production.jpg" alt="" />
+              <p class="main-text">Продуктивність або робоча етика</p>
+            </div>
+          </div>
+        </div>
+        <div class="collective-work container1200">
+          <h2 class="section_title">
+            Фактично “гнучкі навички” є практичним зображенням особистих рис
+            людини. Проте, їх складно визначити, особливо за відсутності
+            тривалого спостереження.
+            “Гнучкі навички” надають необхідну основу для продуктивної та злагодженої роботи в колективі.
+          </h2>
+          <div class="collective-work-main">
+            <img src="./img/soft-skills.jpg" alt="" />
+            <div class="block-underblock">
+              <h3 class="section_subtitle">
+                Вони забезпечують такі важливі поняття для роботи колективу як
+              </h3>
+              <ul>
+                <li>Взаємовигідна співпраця</li>
+                <li>Продуктивні процеси</li>
+                <li>Оперативне прийняття рішень</li>
+                <li>Конструктивна комунікація</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flex-skills-learning container1200">
+          <div class="flex-skills-tips">
+            <h2 class="section_title">
+              Наскільки довгою і складною буде робота над гнучкими навичками,
+              залежить від бажаного навику і ваших особливостей. <br> Але варто
+              враховувати, що це питання не одного дня, а іноді навіть не одного
+              місяця. <br> Чому так довго? <br> Багато з гнучких навичок пов’язані з нашими
+              звичками і установками, які змінити досить складно.
+            </h2>
+            <p>Необхідне терпіння! Крім того не забувайте, що освоєння навичок повинно бути усвідомленим і активним — це не працює, якщо практикувати раз в тиждень.</p>
+            <p>Сучасний фронтенд-розробник повинен володіти не лише технічними навичками, але й гнучкими навичками, щоб стати успішним у своїй кар'єрі.</p>
+          </div>
+          <img src="./img/soft-skills-learning.jpg" alt="">
+        </div>
+        <div class="flex-skills-list dark_bg">
+          <div class="container1200">
+            <h2 class="section_title font_white container1200">
+              Гнучкі навички включають у себе навички та якості, які допоможуть
+              розробнику працювати ефективно в команді та вирішувати різноманітні
+              завдання. <br> Ось кілька з них:
+            </h2>
+            <div class="flex-skills-container">
+              <div>
+                <h3 class="section_subtitle">Комунікація</h3>
+                <li>
+                  Здатність чітко та ефективно спілкуватися з членами команди,
+                  включаючи інших розробників, дизайнерів та менеджерів проекту.
+                </li>
+              </div>
+              <div>
+                <h3 class="section_subtitle">Співпраця</h3>
+                <li>
+                  Вміння працювати у команді, спільно над проектами та
+                  обмінюватися ідеями з іншими членами команди.
+                </li>
+              </div>
+              <div>
+                <h3 class="section_subtitle">Адаптивність</h3>
+                <li>
+                  Здатність швидко адаптуватися до змін у вимогах проекту,
+                  технологічних засобах та працювати в різних середовищах.
+                </li>
+              </div>
+              <div>
+                <h3 class="section_subtitle">Проблемне вирішення</h3>
+                <li>
+                  Уміння аналізувати складні завдання та шукати ефективні рішення
+                  для їх вирішення.
+                </li>
+              </div>
+              <div>
+                <h3 class="section_subtitle">Креативність</h3>
+                <li>
+                  Здатність думати творчо та пропонувати нові ідеї для вирішення
+                  проблем та покращення користувацького досвіду.
+                </li>
+              </div>
+              <div>
+                <h3 class="section_subtitle">Управління часом</h3>
+                <li>
+                  Ефективне планування часу та пріоритизація завдань для
+                  досягнення максимальної продуктивності.
+                </li>
+              </div>
+              <div>
+                <h3 class="section_subtitle">Вирішення конфліктів</h3>
+                <li>
+                  Вміння ефективно вирішувати конфлікти та знаходити компромісні
+                  рішення у випадках непорозумінь або різниці поглядів.
+                </li>
+              </div>
+              <div>
+                <h3 class="section_subtitle">Самомотивація</h3>
+                <li>
+                  Здатність працювати самостійно та продовжувати навчання та
+                  розвиток у власній кар'єрі.
+                </li>
+              </div>
+            </div>
+            <div class="summary">
+              <h2 class="section_title font_white container1200">
+                Ці гнучкі навички допоможуть фронтенд-розробникові не лише ефективно
+                працювати у своєму технічному аспекті, але й сприятимуть побудові
+                успішної кар'єри, взаємодії з колегами та розвитку особистості як
+                професіонала.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section dark_section"></section>
+    </main>
+    <footer class="footer darkblue">
+      <div class="container1100 footerWrapper">
+       <img src="img/skm.png" class="picture100">
+      <div class="footer-content">
+       <p class="copyright footer_text">All rights reserved, Вільчик Владислав</p>
+      </div>
+      <div class="social-icons">
+       <img src="img/instagram.png" class="picture100">
+       <img src="img/youtube.png" class="picture100">
+       <img src="img/telegram.png" class="picture100">
+      </div>
+      </div>
+    </footer>
+    <script src="./index.mjs" type="module"></script>
+    <!-- <script src="js/script.js"></script> -->
+  </body>
+</html>

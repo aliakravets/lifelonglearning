@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* transition: 1s; */
+}
+/* Загальні стилі */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}   
+.container1100,
+.container1000,
+.container900,
+.container800,
+.container1200 {
+  padding: 50px;
+  margin: 0 auto;
+}
+.container1200 {
+  max-width: 1200px;
+}
+.container1100 {
+  max-width: 1100px;
+}
+.container1000 {
+  max-width: 1000px;
+}
+.container900 {
+  max-width: 900px;
+}
+.container800 {
+  max-width: 800px;
+}
+.container300 {
+  max-width: 300px;
+}
+/* .main_title {
+  font-family: "Manrope", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  font-style: normal;
+} */
+.section_title {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: 48px;
+  font-weight: 400;
+  font-style: normal;
+}
+.section_subtitle {
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  font-style: normal;
+}
+.font_white {
+  color: white;
+}
+.font_grey {
+  color: #777;
+}
+.font_ {
+  color: #4fe9a4;
+}
+.font_green {
+  color: #4fe9a4;
+}
+.dark_bg {
+  background: #0a2640;
+}
+.white_bg {
+  background: #fff;
+}
+.green_bg {
+  background: #65e4a3;
+}
+
+
+/*header*/ /*header*/ /*header*/
+.header {
+  width: 100%;
+  background-color: #0a2640;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.nav {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px white solid;
+}
+.header_nav_list {
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_nav_item {
+  list-style-type: none;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+.active {
+  padding: 10px 15px 10px 15px;
+  background-color: white;
+  border-radius: 40px;
+  color: #0a2640;
+}
+.main_title {
+  font-family: "Manrope", sans-serif;
+  font-size: 48.5px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+}
+.birch {
+  color: rgba(90, 204, 151, 1);
+}
+.explore-btn {
+  width: 250px;
+  height: 35px;
+  border-radius: 40px;
+  padding: 8px;
+  padding-top: 0px;
+  color: rgba(90, 204, 151, 1);
+  border: 3px solid white;
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.explore-btn:hover {
+  background-color: rgba(90, 204, 151, 1);
+  color: white;
+  border: 3px solid rgba(90, 204, 151, 1);
+}
+.active:hover {
+  background-color: white;
+  color: #0a2640;
+}
+
+/*Styles for Personal Plans*/
+.plans_list {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.plan_item {
+  list-style-type: none;
+  color: rgba(90, 204, 151, 1);
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  padding: 2px;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+.plan_item:hover {
+  color: white;
+  background-color: rgba(90, 204, 151, 1);
+  border: 3px solid rgba(90, 204, 151, 1);
+}
+
+
+
+/* foooter */
+.footer{
+  width: 100%;
+ }
+ .footerWrapper{
+  display: flex;
+  justify-content: space-evenly;
+ }
+ .picture100{
+  width: 50px;
+ }
+ .footer-content {
+  text-align: center;
+  flex-grow: 1;
+ }
+ .social-icons {
+  display: flex;
+ }
+ .social-icons img {
+  margin-left: 10px; /
+ }
+ .darkblue{
+  background: #0A2640;
+  font: Manrope;
+  color: white;
+  padding: 10px
+ }
+ .footer_text {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: 24px;
+  font-weight: 400;
+  font-style: normal;
+}
